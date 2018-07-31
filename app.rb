@@ -2,7 +2,7 @@ require_relative 'config/environment'
 
 class App < Sinatra::Base
 
-  get '/hey' do
+  get '/' do
     @session = session
   end
 
